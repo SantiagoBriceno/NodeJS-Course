@@ -7,7 +7,14 @@ let multiply = (x, y) => x * y;
 let divide = (x, y) => x / y;
 
 
-module.exports = {
+// module.exports = {
+//     add,
+//     subtract,
+//     multiply,
+//     divide
+// }
+
+export default {
     add,
     subtract,
     multiply,
