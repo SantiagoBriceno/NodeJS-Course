@@ -1,6 +1,5 @@
 //Crear un servidor que pueda permitir recibir peticiones
 //interpretarlas y mandar respuestas
-
 const http = require('http');
 http.createServer((request, response) => {
     response.write('hello World');
