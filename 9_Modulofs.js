@@ -9,8 +9,16 @@ console.log(uno);
 const dos = fs.readFileSync("./data/2.txt");
 console.log(dos.toString());
 
-const tittle = 'este es el contenido del archivo 5, donde si vuelvo a crear un archivo con el mismo nombre desde node, se sobrescribira '
+const tittle = 'este es el contenido del archivo 6 inicialmente'
 
+const agregar = 'Contenido agregado al archivo 6 desde Node,JS '
 
+/*
+CREAR ARCHIVOS 
+fs.writeFileSync("./data/6.txt", tittle);
+*/
 
-fs.writeFileSync("./data/5.txt", tittle);
+/*AGREGAR CONTENIDO A ARCHIVOS EXISTENTES*/ 
+fs.writeFileSync("./data/6.txt", agregar, {
+    flag: 'a'
+})
