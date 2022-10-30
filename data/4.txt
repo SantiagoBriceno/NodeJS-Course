@@ -1,1 +1,1 @@
-Este es el contenido del archivo 4 creado con una variable
+Este es el contenido del archivo 4 creado con una variable metodo writeFileSync del modulo fs

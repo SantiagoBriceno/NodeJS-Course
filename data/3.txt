@@ -1,1 +1,1 @@
-Este es el tercer archivo de la carpeta data, creada con el metodo writeFileSync de fs
+Este es el tercer archivo de la carpeta data, creada con el metodo writeFileSync del modulo fs
