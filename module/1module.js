@@ -6,7 +6,7 @@ const user = {
     name: "John",
     last: "ray"
 }
-
+ 
 module.exports = {
     myWebAddress,
     myNumber,
